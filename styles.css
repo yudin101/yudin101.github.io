@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 50px 0;
+}
+
+hr {
+	background-color: lightgray;
+	margin: 35px;
+}
+
+.container {
+	width: 80%;
+	min-height: 90vh;
+	height: auto;
+	padding: 20px 20px 0 20px;
+	margin: 0 150px 0 150px;
+	border: none;
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+}
+
+.container-intro {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.intro-left img {
+	width: 200px;
+}
+
+.intro-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 170px;
+}
+
+.intro-right-name {
+	font-size: 35px;
+}
+
+.intro-right-info {
+	color: dimgray;
+	font-size: 15px;
+}
+
+.socials {
+	text-align: right;
+	margin-top: 50px;
+}
+
+a {
+	color: gray;
+}
+
+i {
+	font-size: 23px;
+	margin-right: 5px;
+}
+
+.github:hover {	color: #238636; }
+
+.linkedin:hover { color: #0077b5; }
+
+.x-twitter:hover { color: black; }
+
+.discord:hover { color: #5865f2; }
+
+.container-about {
+	margin-left: 35px;
+}
