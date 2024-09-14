@@ -36,6 +36,7 @@ hr {
 
 .intro-left img {
 	width: 200px;
+	border-radius: 50%;
 }
 
 .intro-right {
@@ -122,11 +123,11 @@ hr {
 	margin-bottom: 30px;
 	border: 1px solid lightgray;
 	border-radius: 10px;
-	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-	transition: scale 0.3s;
+	transition: 0.3s;
 }
 
 .project:hover {
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 	scale: 1.05;
 }
 
@@ -143,4 +144,34 @@ hr {
 
 .project-desc {
 	padding: 10px;
+}
+
+@media (max-width: 815px) {
+	hr {
+		margin: 0 0 25px 0 ;
+	}
+
+	.container-intro {
+		align-items: flex-start;
+	}
+
+	.intro-left img {
+		width: 100px;
+	}
+
+	.intro-right-name {
+		font-size: 27px;
+	}
+
+	.intro-right-info {
+		font-size: 13px;
+	}
+
+	.socials {
+		margin-top: 0;
+	}
+
+	.container-in {
+		margin-left: 0;
+	}
 }
