@@ -59,11 +59,11 @@ hr {
 	margin-top: 50px;
 }
 
-a {
+.socials a {
 	color: gray;
 }
 
-i {
+.socials i {
 	font-size: 23px;
 	margin-right: 5px;
 	transition: color 0.2s;
@@ -77,15 +77,14 @@ i {
 
 .discord:hover { color: #5865f2; }
 
+.mail:hover { color: black; }
+
 .container-in {
 	margin: 0 0 35px 35px;
 }
 
-.skills-box {
-	margin-top: 20px;
-}
-
 .skills-table {
+	margin-top: 20px;
 	border-collapse: collapse;
 	border: 1px solid lightgray;
 }
@@ -110,4 +109,38 @@ i {
 
 .skills-table tbody tr {
 	border-bottom: 1px solid lightgray;
+}
+
+.projects-box {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project {
+	margin-right: 25px;
+	margin-bottom: 30px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+	transition: scale 0.3s;
+}
+
+.project:hover {
+	scale: 1.05;
+}
+
+.project a {
+	color: black;
+	text-decoration: none;
+}
+
+.project img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 300px;
+}
+
+.project-desc {
+	padding: 10px;
 }
