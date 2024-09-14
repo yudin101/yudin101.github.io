@@ -66,9 +66,10 @@ a {
 i {
 	font-size: 23px;
 	margin-right: 5px;
+	transition: color 0.2s;
 }
 
-.github:hover {	color: #238636; }
+.github:hover {	color: #010409; }
 
 .linkedin:hover { color: #0077b5; }
 
@@ -76,6 +77,37 @@ i {
 
 .discord:hover { color: #5865f2; }
 
-.container-about {
-	margin-left: 35px;
+.container-in {
+	margin: 0 0 35px 35px;
+}
+
+.skills-box {
+	margin-top: 20px;
+}
+
+.skills-table {
+	border-collapse: collapse;
+	border: 1px solid lightgray;
+}
+
+.skills-table thead tr {
+	text-align: left;
+	font-size: 20px;
+	border-bottom: 1px solid lightgray;
+	background-color: #f0f0f0;
+}
+
+.skills-table tr > td {
+	font-weight: bold;
+	border-right: 1px solid lightgray;
+}
+
+.skills-table td,
+.skills-table th {
+	padding: 15px 10px;
+	border-right: 1px solid lightgray;
+}
+
+.skills-table tbody tr {
+	border-bottom: 1px solid lightgray;
 }
