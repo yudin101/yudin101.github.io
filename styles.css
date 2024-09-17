@@ -5,11 +5,16 @@
 	padding: 0;
 }
 
+:root {
+	--toggle-time: 0.5s;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	justify-content: center;
 	margin: 50px 0 50px 0;
+	transition: var(--toggle-time);
 }
 
 hr {
@@ -40,10 +45,25 @@ hr {
 }
 
 .intro-right {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	align-items: flex-end;
 	height: 170px;
+}
+
+.intro-right-button {
+	position: absolute;
+	top: -25px;
+	right: -135px;
+	width: 30px;
+	height: 30px;
+	background: none;
+	border: none;
+	font-size: 25px;
+	cursor: pointer;
+	transition: var(--toggle-time);
 }
 
 .intro-right-name {
@@ -90,11 +110,12 @@ hr {
 	border: 1px solid lightgray;
 }
 
-.skills-table thead tr {
+.st-head-row {
 	text-align: left;
 	font-size: 20px;
 	border-bottom: 1px solid lightgray;
 	background-color: #f0f0f0;
+	transition: var(--toggle-time);
 }
 
 .skills-table tr > td {
@@ -134,6 +155,7 @@ hr {
 .project a {
 	color: black;
 	text-decoration: none;
+	transition: var(--toggle-time);
 }
 
 .project img {
@@ -144,6 +166,33 @@ hr {
 
 .project-desc {
 	padding: 10px;
+}
+
+/*CSS for dark mode*/
+
+.dark-body {
+	color: white;
+	background-color: black;
+}
+
+.dark-intro-right-button {
+	color: white;
+}
+
+.dark-socials:hover {
+	color: white;
+}
+
+.dark-st-head-row {
+	background-color: #333;
+}
+
+.dark-project:hover {
+	box-shadow: 3px 3px 20px rgba(255, 255, 255, 0.5);
+}
+
+.dark-project a {
+	color: white;
 }
 
 @media (max-width: 815px) {
@@ -157,6 +206,11 @@ hr {
 
 	.intro-left img {
 		width: 100px;
+	}
+
+	.intro-right-button {
+		font-size: 20px;
+		right: -25px;
 	}
 
 	.intro-right-name {
