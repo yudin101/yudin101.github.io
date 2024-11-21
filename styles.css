@@ -168,6 +168,10 @@ hr {
 	padding: 10px;
 }
 
+.project-desc p {
+	color: gray;
+}
+
 /*CSS for dark mode*/
 
 .dark-body {
