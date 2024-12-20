@@ -144,13 +144,13 @@ hr {
 .project {
 	margin-right: 25px;
 	margin-bottom: 30px;
-	border: 1px solid lightgray;
+	/* border: 1px solid lightgray; */
 	border-radius: 10px;
 	transition: 0.3s;
 }
 
 .project:hover {
-	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 	scale: 1.05;
 }
 
@@ -178,7 +178,7 @@ hr {
 
 .dark-body {
 	color: white;
-	background-color: black;
+	background: #212121;
 }
 
 .dark-intro-right-button {
@@ -194,7 +194,7 @@ hr {
 }
 
 .dark-project:hover {
-	box-shadow: 3px 3px 20px rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
 
 .dark-project a {
