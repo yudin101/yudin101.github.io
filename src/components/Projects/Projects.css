@@ -1,0 +1,51 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  height: auto;
+  padding: 2rem;
+}
+
+.project-box {
+  width: 25%;
+  margin: 0 1.2rem 2rem 0;
+  border-bottom: 1px solid #000;
+  transition: border-bottom 0.3s;
+}
+
+.project-box:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.project-box img {
+  width: 100%;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.project-info {
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.link-box {
+  font-size: 22px;
+  text-align: right;
+  margin-top: 0.4rem;
+}
+
+.link-box a {
+  color: #666;
+  margin-left: 15px;
+  transition: 0.1s;
+}
+
+.link-box a:hover {
+  color: #fff;
+}
+
+@media (max-width: 1300px) {
+  .project-box {
+    width: 90%;
+  }
+}

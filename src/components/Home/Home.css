@@ -1,0 +1,59 @@
+.home-container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.react-typed {
+  color: #f00;
+}
+
+.home-socials {
+  position: fixed;
+  bottom: 2rem;
+  margin-top: 3rem;
+  padding: 20px;
+  border-bottom: 3px solid #fff;
+}
+
+.social-link {
+  font-size: 30px;
+  color: #666;
+  margin: 0 0.5rem;
+  transition: 0.2s;
+}
+
+.social-link:hover {
+  color: #fff;
+  margin: 0 1rem;
+  font-size: 40px;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.discord:hover {
+  color: #5865f2;
+}
+
+.bluesky:hover {
+  color: #1185fe;
+}
+
+@media (max-width: 1300px) {
+  .home-container {
+    padding: 2rem;
+  }
+  
+  .home-title {
+    font-size: 4rem;
+  }
+}
