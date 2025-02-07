@@ -1,4 +1,4 @@
-type ProjectsArray = {
+type projectsArray = {
   name: string;
   desc: string;
   img: string;
@@ -6,7 +6,7 @@ type ProjectsArray = {
   source?: string;
 }[];
 
-const ProjectsList: ProjectsArray = [
+const projectsList: projectsArray = [
   {
     name: "astropicdaily",
     desc: "Get an astro pic daily!",
@@ -48,4 +48,4 @@ const ProjectsList: ProjectsArray = [
   },
 ];
 
-export default ProjectsList;
+export default projectsList;

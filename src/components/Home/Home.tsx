@@ -1,8 +1,25 @@
 import { ReactTyped } from "react-typed";
-import SocialsList from "./SocialsList";
+import SocialsList from "./socialsList";
 import "./Home.css";
+import { useEffect } from "react";
+import projectsList from "../Projects/projectsList";
 
 export default function Home() {
+  useEffect(() => {
+    projectsList.forEach(
+      (project: {
+        name: string;
+        desc: string;
+        img: string;
+        web?: string;
+        source?: string;
+      }) => {
+        const img = new Image();
+        img.src = project.img;
+      },
+    );
+  }, []);
+
   return (
     <>
       <div className="home-container">
@@ -10,11 +27,7 @@ export default function Home() {
           hi, i'm{" "}
           <ReactTyped
             className="react-typed"
-            strings={[
-              "yudin",
-              "a tech guy",
-              "a web dev",
-            ]}
+            strings={["yudin", "a tech guy", "a web dev"]}
             typeSpeed={80}
             backSpeed={20}
             loop

@@ -1,3 +1,4 @@
+import { IconType } from "react-icons";
 import {
   FaGithub,
   FaLinkedin,
@@ -7,7 +8,13 @@ import {
   FaEnvelope,
 } from "react-icons/fa6";
 
-const SocialsList = [
+type socialsArray = {
+  name: string;
+  logo: IconType;
+  link: string;
+}[];
+
+const socialsList: socialsArray = [
   {
     name: "github",
     logo: FaGithub,
@@ -40,4 +47,4 @@ const SocialsList = [
   },
 ];
 
-export default SocialsList;
+export default socialsList;

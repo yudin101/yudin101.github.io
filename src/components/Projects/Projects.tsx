@@ -1,13 +1,13 @@
 import { FaGithub } from "react-icons/fa6";
 import { CiGlobe } from "react-icons/ci";
-import ProjectsList from "./ProjectsList";
+import projectsList from "./projectsList";
 import "./Projects.css";
 
 export default function Projects() {
   return (
     <>
       <div className="projects-container">
-        {ProjectsList.map((item, index) => (
+        {projectsList.map((item, index) => (
           <div className="project-box" key={index}>
             <img src={item.img} />
             <div className="project-info">
