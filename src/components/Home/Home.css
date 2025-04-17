@@ -48,6 +48,10 @@
   color: #1185fe;
 }
 
+.stackoverflow:hover {
+  color: #f4811e;
+}
+
 @media (max-width: 1300px) {
   .home-container {
     padding: 2rem;
