@@ -8,11 +8,11 @@ type projectsArray = {
 
 const projectsList: projectsArray = [
   {
-    name: "KeePass Reader",
+    name: "WebKee",
     desc: "KeePass db on the web",
-    img: "/projects/keepass-reader.webp",
-    web: "https://keepass-reader.vercel.app",
-    source: "https://github.com/yudin101/keepass-reader",
+    img: "/projects/webkee.webp",
+    web: "https://webkee.vercel.app",
+    source: "https://github.com/yudin101/webkee",
   },
   {
     name: "astropicdaily",
