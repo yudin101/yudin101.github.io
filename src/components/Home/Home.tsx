@@ -27,7 +27,7 @@ export default function Home() {
           hi, i'm{" "}
           <ReactTyped
             className="react-typed"
-            strings={["yudin", "a tech guy", "a web dev"]}
+            strings={["yudin", "a programmer", "a web developer"]}
             typeSpeed={80}
             backSpeed={20}
             loop
