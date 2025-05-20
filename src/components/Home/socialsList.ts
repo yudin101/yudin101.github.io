@@ -49,7 +49,7 @@ const socialsList: socialsArray = [
   {
     name: "email",
     logo: FaEnvelope,
-    link: "mailto:yudinkarki00@gmail.com",
+    link: "mailto:contact@yudin101.com.np",
   },
 ];
 

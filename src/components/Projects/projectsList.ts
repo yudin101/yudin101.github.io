@@ -48,6 +48,15 @@ const projectsList: projectsArray = [
     stack: ["React", "OpenWeatherMap API"],
   },
   {
+    name: "MyCulture AI Clone",
+    desc: "Website CLone",
+    more: "This is the clone of MyCulture AI's website. There is not much to say about this project. You can directly go the live website by clicking the name of this project above.",
+    img: "/projects/myculture-ai-clone.webp",
+    web: "https://yudin101.com.np/myculture-ai-clone",
+    source: "https://github.com/yudin101/myculture-ai-clone",
+    stack: ["React"],
+  },
+  {
     name: "ToTimer",
     desc: "Pomodoro Timer based on Django",
     more: "Heard about Pomodoro Technique? You can learn about it from this webapp itself. You get a Pomodoro Timer and a place to write down your tasks so that your dumb head won't forget it. UI could be better? I know.",
