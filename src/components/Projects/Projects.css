@@ -46,7 +46,7 @@
   color: #fff;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   .project-box {
     width: 90%;
   }
