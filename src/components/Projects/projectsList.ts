@@ -49,7 +49,7 @@ const projectsList: projectsArray = [
   },
   {
     name: "MyCulture AI Clone",
-    desc: "Website CLone",
+    desc: "Website Clone",
     more: "This is the clone of MyCulture AI's website. There is not much to say about this project. You can directly go the live website by clicking the name of this project above.",
     img: "/projects/myculture-ai-clone.webp",
     web: "https://yudin101.com.np/myculture-ai-clone",
