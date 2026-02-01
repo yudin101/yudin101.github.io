@@ -42,18 +42,6 @@
   color: #0077b5;
 }
 
-.discord:hover {
-  color: #5865f2;
-}
-
-.bluesky:hover {
-  color: #1185fe;
-}
-
-.stackoverflow:hover {
-  color: #f4811e;
-}
-
 @media (max-width: 1300px) {
   .home-container {
     padding: 2rem;

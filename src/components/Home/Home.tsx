@@ -24,10 +24,10 @@ export default function Home() {
     <>
       <div className="home-container">
         <h1 className="home-title">
-          hi, i'm{" "}
+          hi, i
           <ReactTyped
             className="react-typed"
-            strings={["yudin", "a programmer", "a web developer"]}
+            strings={[`<span style="color: white;">'m</span> yudin`, `\u200C write code`]}
             typeSpeed={80}
             backSpeed={20}
             loop

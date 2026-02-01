@@ -3,10 +3,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaXTwitter,
-  FaDiscord,
-  FaBluesky,
   FaEnvelope,
-  FaStackOverflow,
 } from "react-icons/fa6";
 
 type socialsArray = {
@@ -30,21 +27,6 @@ const socialsList: socialsArray = [
     name: "twitter",
     logo: FaXTwitter,
     link: "https://x.com/yudin101",
-  },
-  {
-    name: "discord",
-    logo: FaDiscord,
-    link: "https://discord.com/users/781480676049682452",
-  },
-  {
-    name: "bluesky",
-    logo: FaBluesky,
-    link: "https://bsky.app/profile/yudin101.com.np",
-  },
-  {
-    name: "stackoverflow",
-    logo: FaStackOverflow,
-    link: "https://stackoverflow.com/users/29547643/yudin101",
   },
   {
     name: "email",
