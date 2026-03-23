@@ -1,25 +1,8 @@
 import { ReactTyped } from "react-typed";
 import SocialsList from "./socialsList";
 import "./Home.css";
-import { useEffect } from "react";
-import projectsList from "../Projects/projectsList";
 
 export default function Home() {
-  useEffect(() => {
-    projectsList.forEach(
-      (project: {
-        name: string;
-        desc: string;
-        img: string;
-        web?: string;
-        source?: string;
-      }) => {
-        const img = new Image();
-        img.src = project.img;
-      },
-    );
-  }, []);
-
   return (
     <>
       <div className="home-container">
