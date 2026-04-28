@@ -4,6 +4,7 @@ import {
   FaLinkedin,
   FaXTwitter,
   FaEnvelope,
+  FaMedium,
 } from "react-icons/fa6";
 
 type socialsArray = {
@@ -27,6 +28,11 @@ const socialsList: socialsArray = [
     name: "twitter",
     logo: FaXTwitter,
     link: "https://x.com/yudin101",
+  },
+  {
+    name: "medium",
+    logo: FaMedium,
+    link: "https://yudin101.medium.com",
   },
   {
     name: "email",
