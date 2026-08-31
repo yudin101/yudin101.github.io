@@ -10,7 +10,10 @@ export default function Home() {
           hi, i
           <ReactTyped
             className="react-typed"
-            strings={[`<span style="color: white;">'m</span> yudin`, `\u200C write code`]}
+            strings={[
+              `<span style="color: white;">'m</span> yudin`,
+              `\u200C write code`,
+            ]}
             typeSpeed={80}
             backSpeed={20}
             loop
