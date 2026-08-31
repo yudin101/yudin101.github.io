@@ -1,12 +1,37 @@
-import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home/Home";
+import { ReactTyped } from "react-typed";
+import SocialsList from "./socialsList";
+import "./App.css";
 
 export default function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <div className="home-container">
+        <h1 className="home-title">
+          hi, i
+          <ReactTyped
+            className="react-typed"
+            strings={[
+              `<span style="color: white;">'m</span> yudin`,
+              `\u200C write code`,
+            ]}
+            typeSpeed={80}
+            backSpeed={20}
+            loop
+          />
+        </h1>
+        <div className="home-socials">
+          {SocialsList.map((item, index) => (
+            <a
+              className={`social-link ${item.name}`}
+              href={item.link}
+              key={index}
+              target="_blank"
+            >
+              {<item.logo />}
+            </a>
+          ))}
+        </div>
+      </div>
     </>
   );
 }
